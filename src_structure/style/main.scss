@@ -1,0 +1,63 @@
+// @import "media/_include-media.scss";
+// @import "../../node_modules/fast-grid/_fast-grid.scss";
+@import 'base/typography';
+
+/* Define the "system" font family */
+@font-face {
+    font-family: system;
+    font-style: normal;
+    font-weight: 300;
+    src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+/* Now, let's apply it on an element */
+body {
+    font-family: "system";
+    overflow-anchor: none;
+
+}
+
+
+/* Remove outline on the forms and links */
+:active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+
+//  Responsive images  // 
+
+* {
+    picture {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        width: 100%;
+
+
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+
+    }
+
+    .image-box {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        background-color: #ccc;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+
+
+}

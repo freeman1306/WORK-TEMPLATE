@@ -1,0 +1,23 @@
+{
+    "liveServer.settings.port": 5501
+} // {
+//     "liveSassCompile.settings.formats": [{
+//         "format": "expanded",
+//         "extensionName": ".css",
+//         "savePath": "/src/css",
+//     }],
+
+//     "liveSassCompile.settings.includeItems": [
+//         "/src/style/main.scss"
+
+//     ],
+
+//     "liveSassCompile.settings.autoprefix": [
+//         "> 1%",
+//         "last 7 versions"
+//     ],
+
+//     "files.exclude": {
+//         "/src_structure": true
+//     },
+// }
